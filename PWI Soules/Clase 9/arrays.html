@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+        //Arrays: variable especial coleccion
+        var mesUno = "enero";
+        var mesDos = "febrero";
+        var mesTres = "marzo";
+        // etc
+        var meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+        var persona = ["franco",24,true,2.23,"curso"];
+        //propiedades
+    //    document.write(persona[2]);
+    //    document.write("<br>");
+        //accedemos al array persona al tercer elemento
+    //    document.write(meses[0]);
+        //accedemos al array meses a la posicion 0 que corresponde al mes de enero
+
+        //length: propiedad: elementos o tamaño de un array
+    //    document.write("<br>");
+    //    document.write(persona.length);
+            var tamano = persona.length;
+        for(var i=0;i<tamano;i++){
+            document.write(persona[i]+"<br>");
+        }
+    </script>
+</body>
+</html>

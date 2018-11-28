@@ -1,0 +1,76 @@
+/*
+*/
+
+h1{
+    /*estilos que quiero aplicar a este elemento*/
+    /* propiedad: valor;*/
+    font-size: 42px;
+    /*existen varias unidad de medidas px,cm,em,rem,etc */
+    font-weight: 900;
+    /*font-weight: 100/200/300/900*/
+    font-style: italic;
+    /*font-style:normal;*/
+    font-family: Arial;
+    color: FireBrick;
+    text-decoration: underline;
+    text-align: center;
+    background-color: grey;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: verdana;
+    color: green;
+    text-align: justify;
+}
+
+h2,h3,h4,h5{
+    font-weight: bold;
+    font-family: verdana;
+    color: coral;
+}
+
+/*Herencia*/
+p strong{
+    color: olive;
+}
+div p span{
+    color:red;
+}
+
+/*CLASES*/
+/*<hi class="nombre"> PALABRA </h1>*/
+
+h3{
+    color: black;
+}
+
+.resaltado{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: coral;
+    text-decoration: underline;
+    font-family: verdana;
+    font-style: italic;
+}
+
+.btn-dark{
+    background-color: midnightblue;
+}
+
+.parrafoPreso{
+    border: 2px solid magenta;
+    /*el tamaño que tiene el borde*/
+    /*contorno: solid,dashed, none,dotted*/
+    /*color*/
+    /*margin y padding*/
+    background-color:white;
+    font-size: 32px;    
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    margin: auto;   
+
+}

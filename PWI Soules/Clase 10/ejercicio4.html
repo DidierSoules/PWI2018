@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        addEventListener("load",inicio);
+        function inicio() {
+            //document.getElementById("nombre").addEventListener("change",alerta);
+            document.getElementById("nombre").addEventListener("keypress",alerta);
+            document.getElementById("nombre").focus();
+        }
+        function alerta() {
+            var nombreCorto = document.getElementById("nombre").value.length;
+            if(nombreCorto < 3) {
+            //alert("Nombre corto. Ingrese un nombre mayor a 4 caracteres");
+            document.getElementById("mensajeAlerta").innerHTML ="El nombre es corto.";
+            document.getElementById("nombre").focus();
+            } else {
+                document.getElementById("mensajeAlerta").innerHTML="";
+            }
+        }
+    </script>
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+    <span id="mensajeAlerta"></span><br>
+    <input type="text" name="dni" id="dni" placeholder="DNI" required>
+    
+</body>
+</html>

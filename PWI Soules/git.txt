@@ -1,0 +1,5 @@
+git clone 'url'
+git pull remoto master
+
+
+url: http://www.bitbucket.org/dileofrancoj/prog_web_inicial

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*        var x =0;
+        while(x<=100){
+            document.write(x+"<br>");
+            x++;
+        }
+
+        //FUNCIONES: Bloque de codigo que sirve para hacer una tarea o conjunto de tareas especificas.
+        //ahorrar codigo
+        //facil edicion y mantenimiento del codigo
+
+function mensaje() {
+    var nombre = prompt("Ingrese su nombre","Carlos");
+    document.write("Bienvenido: "+nombre+"<br>");
+}
+
+mensaje();
+
+        //funciones con parametros
+        // prompt("parametro")
+        // son elemmentos que necesita nuestra funcion para cumplir tareas mas complejas
+//function numeroIntermedio(parametro1,parametro2,parametroN)
+
+function numeroIntermedio(numeroUno,numeroDos) {
+    for(var i=numeroUno+1;i<numeroDos;i++){
+        document.write(i+"<br>");
+    }
+}
+
+var numeroUno = parseInt(prompt("Ingrese el valor inferior"));
+var numeroDos = parseInt(prompt("Ingrese el valor superior"));
+
+numeroIntermedio(numeroUno,numeroDos);
+//for(inicio,fin,incremento/decremento)
+*/
+        function numeroMenor(a,b,c) {
+            if(a<b && a<c){
+                document.write("El numero "+a+" es el menor");
+            }
+            if(b<a && b<c){
+                document.write("El numero "+b+" es el menor");
+            }
+            if(c<a && c<b){
+                document.write("El numero "+c+" es el menor");
+            }
+        }
+
+        var numeroUno = parseInt(prompt("Ingrese un numero"));
+        var numeroDos = parseInt(prompt("Ingrese un numero"));
+        var numeroTres = parseInt(prompt("Ingrese un numero"));
+
+        numeroMenor(numeroUno,numeroDos,numeroTres);
+
+    </script>
+</body>
+</html>

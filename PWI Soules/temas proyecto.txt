@@ -1,0 +1,13 @@
+Proyecto
+	web-webapp
+
+basado en express (framework)
+
+tiene que tener 3 funcionalidades
+	login -> registro
+	publicaciones
+	compras
+	busqueda
+	contacto
+	
+examen angular y node

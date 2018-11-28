@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript 3</title>
+</head>
+<body>
+    <script>
+        //Condicionales
+        //Operadores logicos
+        // &&-> "and" o "y"
+        var usuarioLogin = "Juan";
+        var passwordLogin = "1234";
+        var usuario = prompt("Ingrese el nombre de usuario","ejemplo");
+        var password = prompt("Ingrese su password", "********");
+        // == compara, = asigna
+        if(usuario == usuarioLogin && password == passwordLogin){
+            alert("Bienvenido: "+usuario);
+        }
+            else{
+                alert("Datos Incorrectos");
+            }
+    </script>
+    <script>
+        var diaCumple = 19;
+        var mesCumple = 02;
+      
+        var dia = parseInt(prompt("Ingrese el dia","02"));
+        var mes = parseInt(prompt("Ingrese el mes", "02"));
+        var ano = parseInt(prompt("Ingrese el año","2000"));
+
+        var anoCumple = 2018 - ano;
+
+        if(dia == diaCumple && mes == mesCumple){
+            alert("Feliz Cumple, tenes: "+ anoCumple);
+        }
+        else{
+            alert("No es tu cumple :(");
+        }
+
+    </script>
+</body>
+</html>

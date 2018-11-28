@@ -1,0 +1,24 @@
+/*Aca declaramos las fuentes externas*/
+/*Las usamos online
+
+google fonts
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Neucha|Roboto');
+@font-face{
+    font-family:'OpenSans-bold'; url:'../fonts/OpenSans-Bold.ttf';
+}
+
+h3{
+    font-family: 'OpenSans-Bold';
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Neucha', cursive;
+}
+
+/*descargar, font squirell*/

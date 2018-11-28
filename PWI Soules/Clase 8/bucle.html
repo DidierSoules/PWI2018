@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bucles</title>
+</head>
+<body>
+    <script>
+        //Bucle = iterar, recorrer -> elementos o vereficamos que se cumpla determinada condicion
+        //For, While...
+
+/*       var x;
+        // Cuando tenemos un numero conocido de elementos
+        for(x=1;x<=100;x++){
+            document.write(x);
+            document.write("<br>");
+        }
+*/
+        var total = 0;
+        for(var x = 1; x<=12; x++){
+            var sueldo = parseInt(prompt("Ingresa tu sueldo","0"));
+            document.write("Tu sueldo del mes "+x+" es: $"+sueldo);
+            document.write("<br>");
+            
+            total += sueldo;
+
+        }
+        document.write("Tu sueldo anual es: $"+total+"<br>");
+
+        var promedio = total / 12;
+
+        document.write("Tu sueldo promedio es: $"+promedio);
+
+
+    </script>
+</body>
+</html>

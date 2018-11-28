@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio Array</title>
+</head>
+<body>
+    <script>
+        function cargar(arrayFuncion) {
+            for(i=1;i<=5;i++){
+                var valor =parseInt(prompt("Ingresa el valor"));
+                arrayFuncion.push(valor);
+            }
+        }
+
+        function mostrarElemntos(arrayFuncion) {
+            for(i=0;i<arrayFuncion.length;i++){
+                document.write(array[i]+"<br>");
+            }
+        }
+
+        function sumarElementos(arrayFuncion) {
+            var sumaTotal = 0;
+            for(var i=0;i<arrayFuncion.length;i++){
+                //acumulador
+                sumaTotal += array[i];
+            }
+            document.write("La suma de los elementos es: "+sumaTotal+"<br>");
+        }
+
+        var array = [];
+        cargar(array);
+        mostrarElemntos(array);
+        sumarElementos(array);
+    </script>
+</body>
+</html>
